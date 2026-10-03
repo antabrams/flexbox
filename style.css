@@ -14,16 +14,13 @@ body {
 }
 
 .container {
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
-    justify-content: space-between ;
+    justify-content: space-between;
     min-height: 100vh;
 }
 
-
 .top-container {
-    border: 1px solid black;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -33,7 +30,6 @@ body {
 }
 
 .header {
-    border: 1px solid black;
     margin-bottom: 3%;
     display: flex;
     justify-content: space-around;
@@ -47,18 +43,15 @@ body {
 }
 
 .items {
-    border: 1px solid black;
     display: flex;
     gap: 20px;
     color: #E5E7EB;
 }
 
 .hero-1 {
-    border: 1px solid black;
     display: flex;
     justify-content: space-around;
     padding: 20px;
-
 }
 
 img {
@@ -67,7 +60,6 @@ img {
 }
 
 .title-and-description {
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -75,20 +67,17 @@ img {
 }
 
 .title {
-    border: 1px solid black;
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 900;
 }
 
 .description {
-    border: 1px solid black;
     color: #E5E7EB;
     font-size: 18px;
 }
 
-.button button{
-    border: 1px solid black;
+.header-button button {
     background-color: #3882F6;
     padding: 9px;
     width: 100px;
@@ -96,23 +85,16 @@ img {
     color: white;
 }
 
-img {
-    border: 1px solid black;
-}
-
-
 .middle-container {
     display: flex;
     flex-direction: column;
     align-items: stretch;
     justify-content: flex-start;
-    border: 5px solid black;
     flex: 1;
     padding: 40px 0;
 }
 
 .hero-2 {
-    border: 1px solid black;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -122,7 +104,6 @@ img {
 }
 
 .random-information {
-    border: 1px solid black;
     font-size: 36px;
     font-weight: 900;
 }
@@ -160,9 +141,7 @@ img {
     color: grey;
 }
 
-
 .quote-container {
-    border: 5px solid black;
     width: 100%;
     flex: 1;
     display: flex;
@@ -173,7 +152,6 @@ img {
 }
 
 .quote {
-    border: 1px solid black;
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
@@ -181,7 +159,6 @@ img {
 }
 
 .name {
-    border: 1px solid black;
     font-size: 30px;
     color: #1F2937;
     font-weight: bold;
@@ -190,42 +167,57 @@ img {
 }
 
 .bottom-container {
-    border: 8px solid black;
     display: flex;
     flex-direction: column;
     flex: 1;
     margin-top: -3%;
+    justify-content: space-between;
 }
 
 .outer-card-container {
-    border: 1px solid black;
+    flex: 1;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-container {
-    border: 1px solid black;
+    background-color: #3882F6;
+    padding: 35px;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    border-radius: 6px;
+    align-items: center;
 }
 
 .card-title-and-information {
-    border: 1px solid black;
-}
-
-.title {
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .information {
-    border: 1px solid black;
 }
 
 .button {
-    border: 1px solid black;
+    border: 3px solid white;
+    height: 40px;
+    width: 20%;
+    padding: 9px;
+    text-align: center;
+    border-radius: 10px;
 }
 
 .footer {
-    border: 1px solid black;
+    padding-top: 20px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
 }
-
-.footer-text {
-    border: 1px solid black;
-}
-
