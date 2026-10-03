@@ -100,43 +100,95 @@ img {
     border: 1px solid black;
 }
 
+
 .middle-container {
     display: flex;
     flex-direction: column;
-    margin-bottom: 64%;
+    align-items: center;
+    justify-content: flex-start;
+    border: 5px solid black;
+    flex: 1;
+    padding: 40px 0;
+    gap: 200px;
 }
 
 .hero-2 {
     border: 1px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 40px;
+    padding-bottom: 100px;
 }
 
 .random-information {
     border: 1px solid black;
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .box-container {
     border: 1px solid black;
+    display: flex;
+    gap: 10%;
+    padding: 10px;
+    justify-content: center;
 }
 
 .box-1 {
-    border: 1px solid black;
+    border: 5px solid black;
+    width: 8%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 110px;
+    text-align: center;
+    border-radius: 12px;
+    color: grey;
+    border: 5px solid rgb(0, 110, 255);
 }
 
 .box-2 {
     border: 1px solid black;
+    width: 8%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 110px;
+    text-align: center;
+    border-radius: 12px;
+    color: grey;
+    border: 5px solid rgb(0, 110, 255);
 }
 
 .box-3 {
     border: 1px solid black;
+    width: 8%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 110px;
+    text-align: center;
+    border-radius: 12px;
+    color: grey;
+    border: 5px solid rgb(0, 110, 255);
 }
 
 .box-4 {
     border: 1px solid black;
+    width: 8%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 110px;
+    text-align: center;
+    border-radius: 12px;
+    color: grey;
+    border: 5px solid rgb(0, 110, 255);
 }
 
-.box {
-    border: 1px solid black;
-}
 
 .sub-text {
     border: 1px solid black;
@@ -144,6 +196,13 @@ img {
 
 .quote-container {
     border: 1px solid black;
+    margin-bottom: 20%;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .quote {
@@ -154,7 +213,7 @@ img {
     border: 1px solid black;
 }
 
-.bottom-container { 
+.bottom-container {
     border: 1px solid black;
     display: flex;
     flex-direction: column;
