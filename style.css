@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    border: 1px solid black;
+}
+
+.top-container {
+    border: 1px solid black;
+}
+
+.header {
+    border: 1px solid black;
+}
+
+.items {
+    border: 1px solid black;
+}
+
+.hero-1 {
+    border: 1px solid black;
+}
+
+.title-and-description {
+    border: 1px solid black;
+}
+
+.title {
+    border: 1px solid black;
+}
+
+.description {
+    border: 1px solid black;
+}
+
+.button {
+    border: 1px solid black;
+}
+
+img {
+    border: 1px solid black;
+}
+
+.middle-container {
+
+}
+
+.hero-2 {
+    border: 1px solid black;
+}
+
+.random-information {
+    border: 1px solid black;
+}
+
+.box-container {
+    border: 1px solid black;
+}
+
+.box-1 {
+    border: 1px solid black;
+}
+
+.box-2 {
+    border: 1px solid black;
+}
+
+.box-3 {
+    border: 1px solid black;
+}
+
+.box-4 {
+    border: 1px solid black;
+}
+
+.box {
+    border: 1px solid black;
+}
+
+.sub-text {
+    border: 1px solid black;
+}
+
+.quote-container {
+    border: 1px solid black;
+}
+
+.quote {
+    border: 1px solid black;
+}
+
+.name {
+    border: 1px solid black;
+}
+
+.bottom-container { 
+    border: 1px solid black;
+}
+
+.outer-card-container {
+    border: 1px solid black;
+}
+
+.card-container {
+    border: 1px solid black;
+}
+
+.card-title-and-information {
+    border: 1px solid black;
+}
+
+.title {
+    border: 1px solid black;
+}
+
+.information {
+    border: 1px solid black;
+}
+
+.button {
+    border: 1px solid black;
+}
+
+.footer {
+    border: 1px solid black;
+}
+
+.footer-text {
+    border: 1px solid black;
+}
